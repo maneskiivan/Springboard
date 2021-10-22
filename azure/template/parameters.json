@@ -1,0 +1,45 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vulnerabilityAssessments_Default_storageContainerPath": {
+            "value": null
+        },
+        "vulnerabilityAssessments_Default_storageContainerPath_1": {
+            "value": null
+        },
+        "sites_mainvenues_name": {
+            "value": null
+        },
+        "workspaces_venues_name": {
+            "value": null
+        },
+        "components_mainvenues_name": {
+            "value": null
+        },
+        "servers_sprinboardvenuessrv_name": {
+            "value": null
+        },
+        "vaults_springboardvenueskeys_name": {
+            "value": null
+        },
+        "storageAccounts_venuesstorage_name": {
+            "value": null
+        },
+        "storageAccounts_springboardvenues_name": {
+            "value": null
+        },
+        "databaseAccounts_venuescosmosdb_name": {
+            "value": null
+        },
+        "serverfarms_ASP_springboardvenues_9084_name": {
+            "value": null
+        },
+        "actionGroups_Application_Insights_Smart_Detection_name": {
+            "value": null
+        },
+        "workspaces_DefaultWorkspace_d63688df_4458_45e7_963d_0673af06469b_WUS_externalid": {
+            "value": null
+        }
+    }
+}
