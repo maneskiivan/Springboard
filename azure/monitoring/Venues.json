@@ -1,0 +1,473 @@
+{
+  "properties": {
+    "lenses": {
+      "0": {
+        "order": 0,
+        "parts": {
+          "0": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "colSpan": 5,
+              "rowSpan": 5
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "resourceType",
+                  "value": "Microsoft.Resources/resources"
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/BrowseAllResourcesPinnedPart",
+              "viewState": {
+                "content": {
+                  "selectableData": {}
+                }
+              }
+            }
+          },
+          "1": {
+            "position": {
+              "x": 5,
+              "y": 0,
+              "colSpan": 7,
+              "rowSpan": 5
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "options",
+                  "isOptional": true
+                },
+                {
+                  "name": "sharedTimeRange",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/MonitorChartPart",
+              "settings": {
+                "content": {
+                  "options": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "id": "/subscriptions/d63688df-4458-45e7-963d-0673af06469b/resourceGroups/springboard_venues/providers/Microsoft.Web/sites/mainvenues"
+                          },
+                          "name": "AverageMemoryWorkingSet",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.web/sites",
+                          "metricVisualization": {
+                            "displayName": "Average memory working set",
+                            "resourceDisplayName": "mainvenues"
+                          }
+                        },
+                        {
+                          "resourceMetadata": {
+                            "id": "/subscriptions/d63688df-4458-45e7-963d-0673af06469b/resourceGroups/springboard_venues/providers/Microsoft.Web/sites/mainvenues"
+                          },
+                          "name": "BytesReceived",
+                          "aggregationType": 1,
+                          "namespace": "microsoft.web/sites",
+                          "metricVisualization": {
+                            "displayName": "Data In",
+                            "resourceDisplayName": "mainvenues"
+                          }
+                        },
+                        {
+                          "resourceMetadata": {
+                            "id": "/subscriptions/d63688df-4458-45e7-963d-0673af06469b/resourceGroups/springboard_venues/providers/Microsoft.Web/sites/mainvenues"
+                          },
+                          "name": "BytesSent",
+                          "aggregationType": 1,
+                          "namespace": "microsoft.web/sites",
+                          "metricVisualization": {
+                            "displayName": "Data Out",
+                            "resourceDisplayName": "mainvenues"
+                          }
+                        },
+                        {
+                          "resourceMetadata": {
+                            "id": "/subscriptions/d63688df-4458-45e7-963d-0673af06469b/resourceGroups/springboard_venues/providers/Microsoft.Web/sites/mainvenues"
+                          },
+                          "name": "FunctionExecutionCount",
+                          "aggregationType": 1,
+                          "namespace": "microsoft.web/sites",
+                          "metricVisualization": {
+                            "displayName": "Function Execution Count",
+                            "resourceDisplayName": "mainvenues"
+                          }
+                        }
+                      ],
+                      "title": "mainvenues function metrics",
+                      "titleKind": 2,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideSubtitle": false
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        },
+                        "disablePinning": true
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "2": {
+            "position": {
+              "x": 12,
+              "y": 0,
+              "colSpan": 7,
+              "rowSpan": 5
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "options",
+                  "isOptional": true
+                },
+                {
+                  "name": "sharedTimeRange",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/MonitorChartPart",
+              "settings": {
+                "content": {
+                  "options": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "id": "/subscriptions/d63688df-4458-45e7-963d-0673af06469b/resourceGroups/springboard_venues/providers/Microsoft.DocumentDb/databaseAccounts/venuescosmosdb"
+                          },
+                          "name": "DataUsage",
+                          "aggregationType": 1,
+                          "namespace": "microsoft.documentdb/databaseaccounts",
+                          "metricVisualization": {
+                            "displayName": "Data Usage",
+                            "resourceDisplayName": "venuescosmosdb"
+                          }
+                        }
+                      ],
+                      "title": "Sum Data Usage for venuescosmosdb",
+                      "titleKind": 1,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideSubtitle": false
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        },
+                        "disablePinning": true
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "3": {
+            "position": {
+              "x": 0,
+              "y": 5,
+              "colSpan": 6,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "options",
+                  "isOptional": true
+                },
+                {
+                  "name": "sharedTimeRange",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/MonitorChartPart",
+              "settings": {
+                "content": {
+                  "options": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "region": "westus",
+                            "resourceType": "microsoft.sql/servers/databases",
+                            "subscription": {
+                              "subscriptionId": "d63688df-4458-45e7-963d-0673af06469b",
+                              "displayName": "Azure subscription 1",
+                              "uniqueDisplayName": "Azure subscription 1"
+                            }
+                          },
+                          "name": "app_cpu_percent",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.sql/servers/databases",
+                          "metricVisualization": {
+                            "displayName": "App CPU percentage",
+                            "resourceDisplayName": "Azure subscription 1"
+                          }
+                        }
+                      ],
+                      "title": "Avg App CPU SQL Database and Server",
+                      "titleKind": 2,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideSubtitle": false
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        },
+                        "disablePinning": true
+                      },
+                      "grouping": {
+                        "dimension": "Microsoft.ResourceId"
+                      }
+                    }
+                  }
+                }
+              },
+              "filters": {
+                "Microsoft.ResourceId": {
+                  "model": {
+                    "operator": "equals",
+                    "values": [
+                      "/subscriptions/d63688df-4458-45e7-963d-0673af06469b/resourceGroups/springboard_venues/providers/Microsoft.Sql/servers/sprinboardvenuessrv/databases/springboard_venues",
+                      "/subscriptions/d63688df-4458-45e7-963d-0673af06469b/resourceGroups/springboard_venues/providers/Microsoft.Sql/servers/sprinboardvenuessrv/databases/master"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "4": {
+            "position": {
+              "x": 6,
+              "y": 5,
+              "colSpan": 6,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "options",
+                  "isOptional": true
+                },
+                {
+                  "name": "sharedTimeRange",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/MonitorChartPart",
+              "settings": {
+                "content": {
+                  "options": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "region": "westus",
+                            "resourceType": "microsoft.sql/servers/databases",
+                            "subscription": {
+                              "subscriptionId": "d63688df-4458-45e7-963d-0673af06469b",
+                              "displayName": "Azure subscription 1",
+                              "uniqueDisplayName": "Azure subscription 1"
+                            }
+                          },
+                          "name": "app_memory_percent",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.sql/servers/databases",
+                          "metricVisualization": {
+                            "displayName": "App memory percentage",
+                            "resourceDisplayName": "Azure subscription 1"
+                          }
+                        }
+                      ],
+                      "title": "Avg App memory SQL Database and Server",
+                      "titleKind": 2,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideSubtitle": false
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        },
+                        "disablePinning": true
+                      },
+                      "grouping": {
+                        "dimension": "Microsoft.ResourceId"
+                      }
+                    }
+                  }
+                }
+              },
+              "filters": {
+                "Microsoft.ResourceId": {
+                  "model": {
+                    "operator": "equals",
+                    "values": [
+                      "/subscriptions/d63688df-4458-45e7-963d-0673af06469b/resourceGroups/springboard_venues/providers/Microsoft.Sql/servers/sprinboardvenuessrv/databases/springboard_venues",
+                      "/subscriptions/d63688df-4458-45e7-963d-0673af06469b/resourceGroups/springboard_venues/providers/Microsoft.Sql/servers/sprinboardvenuessrv/databases/master"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "5": {
+            "position": {
+              "x": 12,
+              "y": 5,
+              "colSpan": 7,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "options",
+                  "isOptional": true
+                },
+                {
+                  "name": "sharedTimeRange",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/MonitorChartPart",
+              "settings": {
+                "content": {
+                  "options": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "id": "/subscriptions/d63688df-4458-45e7-963d-0673af06469b/resourceGroups/springboard_venues/providers/Microsoft.Storage/storageAccounts/venuesstorage"
+                          },
+                          "name": "Availability",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.storage/storageaccounts/blobservices",
+                          "metricVisualization": {
+                            "displayName": "Availability"
+                          }
+                        }
+                      ],
+                      "title": "Avg Availability for venuesstorage",
+                      "titleKind": 1,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideSubtitle": false
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        },
+                        "disablePinning": true
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "metadata": {
+      "model": {
+        "timeRange": {
+          "value": {
+            "relative": {
+              "duration": 24,
+              "timeUnit": 1
+            }
+          },
+          "type": "MsPortalFx.Composition.Configuration.ValueTypes.TimeRange"
+        },
+        "filterLocale": {
+          "value": "en-us"
+        },
+        "filters": {
+          "value": {
+            "MsPortalFx_TimeRange": {
+              "model": {
+                "format": "utc",
+                "granularity": "auto",
+                "relative": "24h"
+              },
+              "displayCache": {
+                "name": "UTC Time",
+                "value": "Past 24 hours"
+              },
+              "filteredPartIds": [
+                "StartboardPart-MonitorChartPart-ee3478a6-aede-4737-9bd3-34aeee80b119",
+                "StartboardPart-MonitorChartPart-ee3478a6-aede-4737-9bd3-34aeee80b1ce",
+                "StartboardPart-MonitorChartPart-ee3478a6-aede-4737-9bd3-34aeee80b317",
+                "StartboardPart-MonitorChartPart-ee3478a6-aede-4737-9bd3-34aeee80b3fd",
+                "StartboardPart-MonitorChartPart-ee3478a6-aede-4737-9bd3-34aeee80b49f"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "name": "Venues",
+  "type": "Microsoft.Portal/dashboards",
+  "location": "INSERT LOCATION",
+  "tags": {
+    "hidden-title": "Venues"
+  },
+  "apiVersion": "2015-08-01-preview"
+}
