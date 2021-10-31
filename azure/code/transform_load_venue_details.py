@@ -13,9 +13,10 @@ logging.basicConfig(
 )
 
 
-def main(container_name):
+def main():
   id_data_path = '<PATH to the id_data_path blob>'
   last_run_values_path = '<PATH to the last_run_values_path blob>'
+  container_name = '<The name of the container>'
   # Reading the venue ids file and filtering for the unique ids
   venues = pd.read_csv(id_data_path)
   unique_venues = venues['venue_id'].unique()
