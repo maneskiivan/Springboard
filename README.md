@@ -32,7 +32,7 @@ The lat_long file contains the lattitude and longtitude from all the cities in C
 
 You can update the file to include lattitude and longtitude from other regions to get different results
 
-Update the [main.py](https://github.com/maneskiivan/Springboard/blob/master/local/main.py) file with your database login info
+Update the engine property from the SQLOperations class in the [main.py](https://github.com/maneskiivan/Springboard/blob/master/local/main.py) file with your database login info
 
 Run the main.py file
 
