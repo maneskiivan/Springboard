@@ -62,6 +62,59 @@ Upload the [files](https://github.com/maneskiivan/Springboard/tree/master/azure/
 
 ### Example Analysis
 
+A client wants to find out the best location in California to open a bar and which atributes to include for optimal results.
+
+First we find all venues with rating above 8 that have "Bar" as their primary category.
+
+Then we group the data per city and find the average rating, popularity and total tips ordered by rating.
+
+| City  | Average Rating | Average Popularity | Average Total Tips   | 
+| ------------- | ------------- | --------------- | ---------------- |
+|       Whittier|          8.92|0.9568734848539859|               5.0|
+|       La Jolla|          8.89| 0.951238505129577|               6.0|
+|North Hollywood|          8.89|0.9406555998467995|              19.0|
+|    Pismo Beach|          8.85|0.9932291097758676|              17.0|
+|        Fairfax|          8.85|0.9171330328134413|              25.0|
+|    Paso Robles|          8.85|0.9419249969216203|              11.0|
+|  Beverly Hills|          8.85|0.9370693068786837|               4.0|
+|    Santa Paula|          8.81|0.9590532248363515|              22.0|
+|        Belmont|          8.75|0.9529028386136492|              10.0|
+|         Fresno|          8.73|0.9350863205460713|               7.0|
+|       Lakeside|          8.73|0.9794969873594084|              26.0|
+|      San Mateo|           8.7|0.9095310187111407|              33.0|
+|      Oceanside|          8.67|0.9413789997498672|              21.0|
+|           Ojai|          8.67|0.8443035917313101|               4.0|
+|     Emeryville|          8.66|0.9249143422518536|              45.0|
+|    Joshua Tree|          8.66|0.9732232728281742|              47.0|
+|     Winchester|           8.6| 0.969908819708304|              16.0|
+|        Alameda|           8.6|0.9025801379083179|              25.0|
+|      Fullerton|           8.6|0.9505599097482434|               7.0|
+|       Glendale|          8.58|0.9295751712498345|              30.0|
+
+We continue the analysis for the cities with the highest average rating.
+
+For the first city in the table, we count the number of restaurants for specified sample atributes.
+
+Sample atributes:
+- atm
+- delivery
+- drivethrough
+- hasmusic
+- livemusic
+- outdoorseating
+- valetparking
+- wheelchairaccessible
+
+Then we group the data per rating and count the sample atributes ordered by rating.
+
+|Rating|ATM|Delivery|Drivethrough|Hasmusic|Livemusic|Outdoor seating|Valet Parking|Wheelchair accessible|
+|----|---|--------|------------|--------|---------|---------------|-------------|---------------------|
+|8.92|  0|       1|           0|       0|        1|              1|            0|                    0|
+|7.51|  0|       0|           0|       0|        0|              1|            0|                    0|
+|6.09|  1|       0|           0|       1|        0|              1|            0|                    1|
+|null|  0|       1|           0|       0|        0|              1|            0|                    0|
+
+
 ### Getting Help
 
-[Open a new issue](https://github.com/maneskiivan/Springboard/issues) 
+[Open a new issue](https://github.com/maneskiivan/Springboard/issues)
