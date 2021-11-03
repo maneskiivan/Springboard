@@ -91,9 +91,12 @@ Then we group the data per city and find the average rating, popularity and tota
 |      Fullerton|           8.6|0.9505599097482434|               7.0|
 |       Glendale|          8.58|0.9295751712498345|              30.0|
 
+![analysis_bar](https://user-images.githubusercontent.com/74036152/140013833-0eceddf3-689e-43f5-8bfd-99e0186b330d.png)
+
 We continue the analysis for the cities with the highest average rating.
 
 For the first city in the table, we count the number of restaurants for specified sample atributes.
+
 
 Sample atributes:
 - atm
