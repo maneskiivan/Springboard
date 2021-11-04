@@ -64,6 +64,11 @@ Upload the [files](https://github.com/maneskiivan/Springboard/tree/master/azure/
 
 A client wants to find out the best location in California to open a bar and which atributes to include for optimal results.
 
+Here is full map including all rating ranges.
+
+![Picture1](https://user-images.githubusercontent.com/74036152/140433384-6834f807-06ab-439f-a3ab-04c34040d4af.png)
+
+
 First we find all venues with rating above 8 that have "Bar" as their primary category.
 
 Then we group the data per city and find the average rating, popularity and total tips ordered by rating.
@@ -91,7 +96,7 @@ Then we group the data per city and find the average rating, popularity and tota
 |      Fullerton|           8.6|0.9505599097482434|               7.0|
 |       Glendale|          8.58|0.9295751712498345|              30.0|
 
-![analysis_bar](https://user-images.githubusercontent.com/74036152/140013833-0eceddf3-689e-43f5-8bfd-99e0186b330d.png)
+
 
 We continue the analysis for the cities with the highest average rating.
 
