@@ -64,7 +64,7 @@ Upload the [files](https://github.com/maneskiivan/Springboard/tree/master/azure/
 
 A client wants to find out the best location in California to open a bar and which atributes to include for optimal results.
 
-Here is full map including all rating ranges.
+Here is map of California showing clusters representing average rating ranges.
 
 ![Picture1](https://user-images.githubusercontent.com/74036152/140433384-6834f807-06ab-439f-a3ab-04c34040d4af.png)
 
