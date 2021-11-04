@@ -96,7 +96,7 @@ Then we group the data per city and find the average rating, popularity and tota
 |      Fullerton|           8.6|0.9505599097482434|               7.0|
 |       Glendale|          8.58|0.9295751712498345|              30.0|
 
-
+<img width="1608" alt="Screen Shot 2021-11-04 at 4 21 57 PM" src="https://user-images.githubusercontent.com/74036152/140433641-4fcb147c-e3a7-49ac-addd-6f943eca164c.png">
 
 We continue the analysis for the cities with the highest average rating.
 
