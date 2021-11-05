@@ -11,7 +11,7 @@
 
 ### Installation
 
-**Create a Foursqaure App**
+**Create a Foursquare App**
 
 [Create an account.](https://foursquare.com/developers/signup)
 
