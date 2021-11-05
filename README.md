@@ -100,28 +100,23 @@ Then we group the data per city and find the average rating, popularity and tota
 
 We continue the analysis for the cities with the highest average rating.
 
-For the first city in the table, we count the number of restaurants for specified sample atributes.
+Here is an example of the first city in the table.
 
+Below are the atributes that are affecting the rating.
 
-Sample atributes:
-- atm
-- delivery
-- drivethrough
-- hasmusic
-- livemusic
-- outdoorseating
-- valetparking
-- wheelchairaccessible
+Atributes description:
+- The venues atributes are predefined by [foursquare](https://docs.foursquare.com/docs/places-data-schema#tags).
+- A venue can have one or more atributes associated to it
 
-Then we group the data per rating and count the sample atributes ordered by rating.
+We group the data per rating and count the atributes ordered by rating.
 
-|Rating|ATM|Delivery|Drivethrough|Hasmusic|Livemusic|Outdoor seating|Valet Parking|Wheelchair accessible|
-|----|---|--------|------------|--------|---------|---------------|-------------|---------------------|
-|8.92|  0|       1|           0|       0|        1|              1|            0|                    0|
-|7.51|  0|       0|           0|       0|        0|              1|            0|                    0|
-|6.09|  1|       0|           0|       1|        0|              1|            0|                    1|
-|null|  0|       1|           0|       0|        0|              1|            0|                    0|
+|Rating|Beer|Delivery|Full Bar|Livemusic|
+|----|---|--------|------------|---------|
+|8.92|  1|       1|           1|        1|
+|7.51|  0|       0|           0|        0|
+|6.09|  0|       0|           0|        0|
 
+Beer, delivery, fullbar and livemusic are atributes that are present in the higher ratings only.
 
 ### Getting Help
 
