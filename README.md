@@ -118,13 +118,9 @@ Atributes description:
 
 We group the data per rating and count the atributes ordered by rating.
 
-|Rating|Beer|Delivery|Full Bar|Livemusic|
-|----|---|--------|------------|---------|
-|8.92|  1|       1|           1|        1|
-|7.51|  0|       0|           0|        0|
-|6.09|  0|       0|           0|        0|
+![atributes1](https://user-images.githubusercontent.com/74036152/140456249-802d586f-5210-417c-abb1-d86f85a9a108.png)
 
-Beer, delivery, fullbar and livemusic are atributes that are present in the higher ratings only.
+![atributes2](https://user-images.githubusercontent.com/74036152/140456266-314f5f4e-6d5b-4a1c-bbd7-15ed1b2edd66.png)
 
 ### Getting Help
 
