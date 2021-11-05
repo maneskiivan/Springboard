@@ -64,14 +64,22 @@ Upload the [files](https://github.com/maneskiivan/Springboard/tree/master/azure/
 
 A client wants to find out the best location in California to open a bar and which atributes to include for optimal results.
 
-Here is map of California showing clusters representing average rating ranges.
+Here is map of California showing the following average rating per city:
+- 6 and below
+- between 6 and 8
+- 8 and above
 
 ![Picture1](https://user-images.githubusercontent.com/74036152/140433384-6834f807-06ab-439f-a3ab-04c34040d4af.png)
-
 
 First we find all venues with rating above 8 that have "Bar" as their primary category.
 
 Then we group the data per city and find the average rating, popularity and total tips ordered by rating.
+
+Popularity description:
+- Measure of a POI's popularity by foot traffic. This score is on a 0 to 1 scale and uses a 6-month span of POI visits. The most popular POI in the geographic area is assigned the score .9999. This score is calculated across all POIs within the same country.
+
+Total Tips description:
+- Total recommendations (or warnings) posted by foursquare users on foursquare's site and apps.
 
 | City  | Average Rating | Average Popularity | Average Total Tips   | 
 | ------------- | ------------- | --------------- | ---------------- |
@@ -100,28 +108,23 @@ Then we group the data per city and find the average rating, popularity and tota
 
 We continue the analysis for the cities with the highest average rating.
 
-For the first city in the table, we count the number of restaurants for specified sample atributes.
+Here is an example of the first city in the table.
 
+Below are the atributes that are affecting the rating.
 
-Sample atributes:
-- atm
-- delivery
-- drivethrough
-- hasmusic
-- livemusic
-- outdoorseating
-- valetparking
-- wheelchairaccessible
+Atributes description:
+- The venues atributes are predefined by [foursquare](https://docs.foursquare.com/docs/places-data-schema#tags).
+- A venue can have one or more atributes associated to it
 
-Then we group the data per rating and count the sample atributes ordered by rating.
+We group the data per rating and count the atributes ordered by rating.
 
-|Rating|ATM|Delivery|Drivethrough|Hasmusic|Livemusic|Outdoor seating|Valet Parking|Wheelchair accessible|
-|----|---|--------|------------|--------|---------|---------------|-------------|---------------------|
-|8.92|  0|       1|           0|       0|        1|              1|            0|                    0|
-|7.51|  0|       0|           0|       0|        0|              1|            0|                    0|
-|6.09|  1|       0|           0|       1|        0|              1|            0|                    1|
-|null|  0|       1|           0|       0|        0|              1|            0|                    0|
+|Rating|Beer|Delivery|Full Bar|Livemusic|
+|----|---|--------|------------|---------|
+|8.92|  1|       1|           1|        1|
+|7.51|  0|       0|           0|        0|
+|6.09|  0|       0|           0|        0|
 
+Beer, delivery, fullbar and livemusic are atributes that are present in the higher ratings only.
 
 ### Getting Help
 
