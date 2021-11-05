@@ -106,11 +106,7 @@ Total Tips description:
 
 <img width="1608" alt="Screen Shot 2021-11-04 at 4 21 57 PM" src="https://user-images.githubusercontent.com/74036152/140433641-4fcb147c-e3a7-49ac-addd-6f943eca164c.png">
 
-We continue the analysis for the cities with the highest average rating.
-
-Here is an example of the first city in the table.
-
-Below are the atributes that are affecting the rating.
+Let's analyse the atributes effect on the rating.
 
 Atributes description:
 - The venues atributes are predefined by [foursquare](https://docs.foursquare.com/docs/places-data-schema#tags).
