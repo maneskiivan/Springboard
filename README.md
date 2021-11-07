@@ -63,6 +63,8 @@ Upload the [categories](https://github.com/maneskiivan/Springboard/blob/master/l
 
 Upload the [files](https://github.com/maneskiivan/Springboard/tree/master/azure/files) folder to the blob storage.
 
+[Create the T-SQL schema](https://github.com/maneskiivan/Springboard/blob/master/azure/database/create_tables.sql) on the Azure SQL Database
+
 ### Example Analysis
 
 A client wants to find out the best location in California to open a bar and which atributes to include for optimal results.
