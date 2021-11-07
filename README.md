@@ -6,8 +6,11 @@
 
 - Collects the data by calling Foursquare Places API
 - Stores the data into a database from where it can be analyzed
+- Data collected include venue type (restaurant, museum, bar, etc.) and the specific attributes offered (live music, outdoor sitting, etc.)
 - The success of a venue is measured by its rating
-- This insight can be used to determine a location for a new venue of a specific type and attributes to include in the same to get optimal results
+- This insight can be used to determine the most desirable location for a new venue of a specific type and the attributes to include for optimal (success or results)
+
+[Development Process](https://docs.google.com/presentation/d/1_pg04xPQyUbXbickX3_Y__MFsCi0bSSFp90lFAjPdMs/edit?usp=sharing)
 
 ### Installation
 
